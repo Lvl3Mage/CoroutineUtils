@@ -1,0 +1,19 @@
+{
+  "name": "com.lvl3mage.coroutine-utils",
+  "version": "1.0.0",
+  "displayName": "Сoroutine Utils",
+  "description": "",
+  "unity": "2021.3",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lvl3Mage/CoroutineUtils.git"
+  },
+  "keywords": [
+  ],
+  "author": "lvl3mage",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lvl3Mage/CoroutineUtils/issues"
+  },
+  "homepage": "https://github.com/Lvl3Mage/CoroutineUtils#readme"
+}
