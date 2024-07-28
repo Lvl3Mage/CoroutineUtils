@@ -11,7 +11,7 @@
 <meta property="og:description" content="A drop-in 2D camera management library for Unity" />
 <meta property="og:url" content="https://github.com/Lvl3Mage/CameraManagement" />
 <!-- END opengraph metadata -->
-<title>Coroutine Utils: Coroutine Utils</title>
+<title>Coroutine Utils: CoroutineUtils.CoroutineRunner Class Reference</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
@@ -96,7 +96,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('index.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('a00020.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -114,39 +114,102 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </iframe>
 </div>
 
-<div><div class="header">
-  <div class="headertitle"><div class="title">Coroutine Utils </div></div>
+<div class="header">
+  <div class="summary">
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="a00017.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">CoroutineUtils.CoroutineRunner Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p ><a class="anchor" id="md_README"></a> </p>
-<h1><a class="anchor" id="autotoc_md1"></a>
-Coroutine Utils</h1>
-<p >A simple package that provides a set of utility functions for working with coroutines in Unity from non-MonoBehaviour classes. </p>
-<h2><a class="anchor" id="autotoc_md2"></a>
-Requirements</h2>
-<ul>
-<li>Unity 2021.3 or later</li>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a0e8c1a700a0a09f7e3521f749ab9de00"><td class="memItemLeft" align="right" valign="top">static Coroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00020.html#a0e8c1a700a0a09f7e3521f749ab9de00">StartCoroutine</a> (IEnumerator method)</td></tr>
+<tr class="memdesc:a0e8c1a700a0a09f7e3521f749ab9de00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows a non-monobehaviour class to start a coroutine  <a href="a00020.html#a0e8c1a700a0a09f7e3521f749ab9de00">More...</a><br /></td></tr>
+<tr class="separator:a0e8c1a700a0a09f7e3521f749ab9de00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81e42f879f1d7829d043b742683bd1d1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00020.html#a81e42f879f1d7829d043b742683bd1d1">StopCoroutine</a> (Coroutine coroutine)</td></tr>
+<tr class="memdesc:a81e42f879f1d7829d043b742683bd1d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows a non-monobehaviour class to stop a coroutine  <a href="a00020.html#a81e42f879f1d7829d043b742683bd1d1">More...</a><br /></td></tr>
+<tr class="separator:a81e42f879f1d7829d043b742683bd1d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0e8c1a700a0a09f7e3521f749ab9de00" name="a0e8c1a700a0a09f7e3521f749ab9de00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e8c1a700a0a09f7e3521f749ab9de00">&#9670;&nbsp;</a></span>StartCoroutine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Coroutine CoroutineUtils.CoroutineRunner.StartCoroutine </td>
+          <td>(</td>
+          <td class="paramtype">IEnumerator&#160;</td>
+          <td class="paramname"><em>method</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Allows a non-monobehaviour class to start a coroutine </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">method</td><td>The coroutine to start, passed in as an IEnumerator</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The started coroutine</dd></dl>
+
+</div>
+</div>
+<a id="a81e42f879f1d7829d043b742683bd1d1" name="a81e42f879f1d7829d043b742683bd1d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81e42f879f1d7829d043b742683bd1d1">&#9670;&nbsp;</a></span>StopCoroutine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CoroutineUtils.CoroutineRunner.StopCoroutine </td>
+          <td>(</td>
+          <td class="paramtype">Coroutine&#160;</td>
+          <td class="paramname"><em>coroutine</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Allows a non-monobehaviour class to stop a coroutine </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">coroutine</td><td>The coroutine to stop</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>CoroutineRunner.cs</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md3"></a>
-Installation</h2>
-<p >Include a scoped registry with</p><ul>
-<li><em>name:</em> <code>com.lvl3mage</code></li>
-<li><em>url:</em> <code><a href="https://registry.npmjs.org">https://registry.npmjs.org</a></code></li>
-</ul>
-<p >Add the package to your Unity project by importing the <code>com.lvl3Mage.coroutine-utils</code> package.</p>
-<h2><a class="anchor" id="autotoc_md4"></a>
-Documentation</h2>
-<p >The documentation for the CameraManagement package can be found <a href="https://lvl3mage.github.io/CoroutineUtils/">here</a>.</p>
-<h2><a class="anchor" id="autotoc_md5"></a>
-Author</h2>
-<p >Lvl3Mage - <a href="https://github.com/Lvl3Mage">GitHub</a></p>
-<p >Docs styling with <a href="https://github.com/jothepro/doxygen-awesome-css">doxygen-awesome-css</a> </p>
-</div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="a00014.html">CoroutineUtils</a></li><li class="navelem"><a class="el" href="a00020.html">CoroutineRunner</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
