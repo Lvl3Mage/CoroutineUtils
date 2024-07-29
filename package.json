@@ -2,7 +2,7 @@
   "name": "com.lvl3mage.coroutine-utils",
   "version": "1.0.0",
   "displayName": "Сoroutine Utils",
-  "description": "",
+  "description": "A simple package for working with coroutines outside of MonoBehaviours in Unity",
   "unity": "2021.3",
   "repository": {
     "type": "git",

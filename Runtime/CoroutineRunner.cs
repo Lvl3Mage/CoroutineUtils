@@ -36,7 +36,7 @@ namespace CoroutineUtils
 	/// The MonoBehaviour that actually runs the coroutines
 	/// </summary>
 	/// <remarks>
-	///	Don't use this class directly, use CoroutineRunner instead
+	///	Don't use this class directly, use <see cref="CoroutineRunner"/> instead
 	/// </remarks>
 	public class CoroutineRunnerBehaviour : MonoBehaviour
 	{
