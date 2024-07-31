@@ -13,7 +13,7 @@ Include a scoped registry with
 Add the package to your Unity project by importing the `com.lvl3Mage.coroutine-utils` package.
 
 ## Documentation
-The documentation for the CameraManagement package can be found [here](https://lvl3mage.github.io/CoroutineUtils/).
+The documentation for Coroutine Utils can be found [here](https://lvl3mage.github.io/CoroutineUtils/).
 
 ## Author
 Lvl3Mage - [GitHub](https://github.com/Lvl3Mage)
